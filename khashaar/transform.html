@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+     .container{
+         display: flex;
+         justify-content: center;
+     }  
+     .box{
+         height: 200px;
+         width: 200px;
+         background-color: chartreuse;
+         transition: 1s;
+         margin: 20px;
+     }
+     .box2{
+        height: 200px;
+        width: 200px;
+        background-color: crimson; 
+        transition: 1s;
+        margin: 20px;
+     }
+     .box3{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(20, 173, 220); 
+        transition: 1s;
+        margin: 20px;
+     }
+     .box4{
+        height: 200px;
+        width: 200px;
+        background-color: yellow; 
+        transition: 1s;
+        margin: 20px;
+     }
+     .box:hover{
+         transform: rotate(200deg);
+     }
+     .box2:hover{
+         transform: scale(2);
+     }
+     .box3:hover{
+         transform: skew(30deg);
+     }
+     .box4:hover{
+         transform: translate(20px);
+     }
+
+    </style>
+</head>
+<body>
+  <h1>transform</h1>
+  <div class="container">
+      <div class="box">
+Transform Rotate          
+      </div>
+      <div class="box2">
+Transform scale          
+      </div>
+      <div class="box3">
+Transform translate
+      </div>
+      <div class="box4">
+        
+      </div>
+  </div>
+</body>
+</html>

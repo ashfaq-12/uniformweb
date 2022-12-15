@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1"></div>
+    <button onclick="hello()">click here</button>
+    <button onclick="box()">box</button>
+    <script>
+        function hello(){
+        document.getElementById ("box").innerHTML="Thanks For Submitting!" 
+        document.getElementById ("box").style.fontSize="80px"
+        document.getElementById ("box").style.fontWeight="bolder"
+        document.getElementById ("box").style.textAlign="center"
+        document.getElementById ("box").style.paddingTop="350px"
+
+        document.getElementById ("box").style.color="white"
+        document.getElementById ("box").style.backgroundColor="black"
+        document.getElementById ("box").style.backgroundImage= "url(https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg)";
+        document.getElementById ("box").style.height="100vh";
+        document.getElementById ("box").style.backgroundSize="cover";
+        document.getElementById ("box").style.backgroundRepeat="no-repeat";
+        }
+        document.getElementById("box1").innerHTML="this is a box"
+        document.getElementById("box1").style.color="coral"
+        document.getElementById("box1").style.backgroundColor="black"
+        
+        function box(){
+            let z=document.getElementById ("box1")
+            if (z.style.display==="none"){
+                z.style.display= "block"
+            }
+            else{
+                z.style.display="none"
+            }
+        }
+
+
+
+    
+    
+    
+    </script>
+</body>
+</html>

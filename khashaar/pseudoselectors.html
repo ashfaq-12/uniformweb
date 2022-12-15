@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: darkred;
+            font-weight: bold;
+        }
+        p::first-line{
+            color: darkslateblue;
+            font-weight: bold;
+        }
+        h2::before{
+            content: "hello world";
+            background-color: pink;
+            font-size: 30px;
+            display: block;
+        }
+        h2::after{
+            content: "hello world";
+            background-color: crimson;
+            color: white;
+            font-size: 30px;
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>pseudo selectors</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Beatae quis, eum rerum ab facilis placeat in error odit libero quod quaerat nostrum officia porro eaque laudantium doloremque, architecto quia!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente <strong style="color: blue;">assumenda </strong> doloremque nam. Similique quia molestiae consequuntur ducimus. Tempora, nulla itaque? </p>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, magnam.</h2>
+</body>
+</html>

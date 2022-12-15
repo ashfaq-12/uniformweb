@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .box1{
+        height: 200px;
+        width: 200px;
+        background-color: palevioletred;
+        margin: 20px;
+        transition: 1s;
+
+    }
+    .box1:hover{
+        box-shadow: 20px 10px 10px black;
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+        background-color: chartreuse;
+        margin: 20px;
+        transition: 2s;
+    }
+    .box2:hover{
+        background-color: cornflowerblue;
+        width: 500px;
+    }
+    .box3{
+        height: 200px;
+        width: 200px;
+        background-color: darkcyan;
+        margin: 20px;
+        transition-timing-function: ease-out;
+        transition: 1s;
+    }
+    .box3:hover{
+        height: 400px;
+        width: 400px;
+        background-color: darkgoldenrod;
+    }
+    .box4{
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        background-color: darkviolet;
+        transition: 2s;
+        transition-timing-function: ease-in-out;
+    }
+    .box4:hover{
+        height: 500px;
+        width: 400px;
+        background-color: gray;
+        
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+
+    </div>
+</body>
+</html>

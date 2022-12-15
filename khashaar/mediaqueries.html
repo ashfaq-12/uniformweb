@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box1{
+            height: 200px;
+            background-color: red;
+        }
+        .box2{
+            height: 200px;
+            background-color: yellow;
+        }
+        .box3{
+            height: 200px;
+            background-color: slateblue;
+        }
+        @media (min-width: 700px){
+            .box1{
+                background-color: springgreen;
+            }
+        }
+        @media (max-width:2000px){
+            .box1{
+                font-size: 30px;
+            }
+        }
+        @media(min-width:700px) and (max-width:2000px){
+            .box2{
+                background-color: coral;
+                color: black;
+                font-size: 30px;
+            }
+        }
+        @media (min-width: 700px) and (max-width:2000px){
+            .box3{
+                background-color: lightseagreen;
+                font-size: 30px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+   <h1>mediaqueries</h1> 
+   <div class="box1">
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A adipisci eos amet voluptas. Saepe quae eum nisi aut, vero facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, delectus.</p>
+   </div>
+   <div class="box2">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A adipisci eos amet voluptas. Saepe quae eum nisi aut, vero facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, delectus.</p>
+</div>
+<div class="box3">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A adipisci eos amet voluptas. Saepe quae eum nisi aut, vero facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, delectus.</p>
+</div>
+
+</body>
+</html>

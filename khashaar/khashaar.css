@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: rgba(4, 4, 94, 0.959);
+    padding: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: bold;
+}
+li{
+    float: left;
+    list-style: none;
+}
+ul{
+    overflow: auto;
+}
+.header{
+    background-image: linear-gradient(rgba(228, 180, 135, 0.7),rgba(226, 220, 220, 0.7)) ,url(bag.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#css{
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+    margin-left: 100px;
+}
+p{
+    font-size: larger;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+button{
+    border: 1px solid white;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    margin-right: 1000px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+button:hover{
+    background: darkblue;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+.column{
+    border: 2px solid white;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    margin-left: 10px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+#para{
+    margin-right: 80px;
+    padding: 10px;
+}

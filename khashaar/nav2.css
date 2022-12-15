@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+}
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+li{
+    float: left;
+    margin: 10px;
+}
+ul{
+    overflow: auto;
+}
+.header{
+    background-image:linear-gradient(rgba(150, 148, 148, 0.7),rgba(148, 147, 147, 0.932)) ,url(edu3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#css{
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    padding-top: 200px;
+    text-shadow: 3px 7px 3px purple;
+}
+p{
+ text-align: center;
+ font-size: 20px;
+ font-weight: bold;
+ color: black;
+ margin-top: 20px;
+ text-shadow: 3px 7px 3px darkmagenta;
+}
+
+button{
+    border: 3px solid black;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+    background: transparent;
+    margin-right: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+@media (max-width:700px){
+    .btn{
+        margin-right: 80px;
+    }
+}
+#head{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.course{
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.column{
+    border: 2px solid black;
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(110, 134, 145),lightpink);
+    text-shadow: 3px 7px 3px white;
+    transition: 1s;
+    
+}
+.column:hover{
+    box-shadow: 10px 10px 10px black;
+
+}
+.uni{
+    border: 1px solid black;
+    margin: 60px;
+    box-shadow: 10px 10px 10px rgb(241, 9, 79);
+    transition: 1s;
+    height: 120px;
+    width: 200px;
+}
+
+
+.uni:hover{
+    box-shadow: 20px 20px 20px black;
+
+}
+h3{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+@media(max-width:700px){
+    img{
+        flex-direction: column;
+    }
+}
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+form{
+    margin-top: 80px;
+    font-size: 30px;
+    /* border: 2px solid black; */
+    padding: 50px;
+    margin-left: 30px;
+}
+.btn{
+    margin-left: 80px;
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    background: transparent;
+    text-align: center;
+}
+#form{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    margin-top: 150px;
+    margin: 20px;
+    font-size: 30px;
+}
+.footer{
+    background-color: lightskyblue;
+}
+input{
+    color: white;
+    float: right;
+}
